@@ -1,0 +1,30 @@
+{
+  "name": "devhub",
+  "version": "1.0.0",
+  "description": "A platform for web developers to showcase their projects",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "author": "Sourav Kumar",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^1.22.0",
+    "config": "^3.3.1",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.0",
+    "gravatar": "^1.8.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.27",
+    "multer": "^1.4.2",
+    "multer-storage-cloudinary": "^4.0.0",
+    "rc-pagination": "^3.1.6"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.4"
+  }
+}
