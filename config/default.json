@@ -1,9 +1,0 @@
-{
-    "MONGO_URI": "mongodb+srv://sourav:root@cluster0.gokkl.mongodb.net/min_project?retryWrites=true&w=majority",
-    "JWT_SECRET": "secret",
-    "GITHUB_API_CLIENT_ID": "14b98c3ba728653bc904",
-    "GITHUB_API_CLIENT_SECRET": "b57cd9b18aff9cb62915cdcca05b883204ae9fa6",
-    "CLOUDINARY_CLOUD_NAME": "shouru4997",
-    "CLOUDINARY_API_KEY": "286724555621323",
-    "CLOUDINARY_API_SECRET": "4-xT89ZGFoEC52R6DmE3ynKFrzw"
-}
